@@ -1,0 +1,306 @@
+.ef {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pad {
+  padding: 200px 0px 205px 87px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 290px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+  backdrop-filter: blur(100px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.top {
+  position: absolute;
+  background: #998235;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.mid-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+  border-radius: 100%;
+  left: 95px;
+  /* top: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3B3F57;
+}
+
+.mid-bitcoin {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.mid-bitcoin-logo {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #EAB300;
+  object-fit: contain;
+}
+
+.card-half-circle {
+  position: relative;
+  width: 130px;
+  height: 60px;
+  background: #14172B;
+  ;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.card-half-circle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -28px;
+  width: 35px;
+  height: 35px;
+  border-top-right-radius: 50px;
+  box-shadow: 1px -16px #14172B;
+}
+
+.card-half-circle::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 123px;
+  width: 35px;
+  height: 35px;
+  border-top-left-radius: 50px;
+  box-shadow: -1px -16px #14172B;
+}
+
+.btc-txt {
+  position: absolute;
+  left: 105px;
+  top: 80px;
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  color: #737BAE;
+  opacity: 0.9;
+}
+
+.dollar-txt {
+  padding: 0px 15px 0px 30px;
+}
+
+.btc-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  width: 242px;
+  height: 40px;
+  left: 24px;
+  top: 108px;
+  background: #14172B;
+  border-radius: 17px;
+  padding: 5px 5px;
+  border-radius: 17px;
+  color: #ECF0FF;
+  opacity: 0.9;
+  color: #00FFA3;
+  opacity: 0.9;
+}
+
+.btc-border-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  width: 242px;
+  height: 40px;
+  left: 25px;
+  top: 185px;
+  background: #14172B;
+  border-radius: 17px;
+}
+
+.tvl {
+  position: absolute;
+  left: 135px;
+  top: 235px;
+}
+
+.btc-border-three {
+  position: absolute;
+  width: 121.75px;
+  height: 40px;
+  left: 90px;
+  top: 260px;
+  background: #14172B;
+  border-radius: 29.5px;
+}
+
+.solana {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: calc(50% - 22px/2 - 34.87px);
+  top: 9px;
+}
+
+.solana1 {
+  position: absolute;
+  width: 12.63px;
+  height: 2.46px;
+  left: calc(50% - 12.63px/2 - 34.79px);
+  top: 15.05px;
+}
+
+.solana2 {
+  position: absolute;
+  width: 12.63px;
+  height: 2.46px;
+  left: calc(50% - 12.63px/2 - 34.79px);
+  top: 18.74px;
+}
+
+.solana3 {
+  position: absolute;
+  width: 12.63px;
+  height: 2.46px;
+  left: calc(50% - 12.63px/2 - 34.79px);
+  top: 22.49px;
+}
+
+.eth {
+  position: absolute;
+  left: 40.97%;
+  right: 40.97%;
+  top: 22.5%;
+  bottom: 22.5%;
+}
+
+.eth1 {
+  position: absolute;
+  left: 46.69%;
+  right: 50.02%;
+  top: 33.5%;
+  bottom: 43.98%;
+}
+
+.eth2 {
+  position: absolute;
+  left: 49.9%;
+  right: 46.74%;
+  top: 33.5%;
+  bottom: 43.98%;
+}
+
+.eth3 {
+  position: absolute;
+  left: 46.69%;
+  right: 50.02%;
+  top: 52%;
+  bottom: 33.89%;
+}
+
+.eth4 {
+  position: absolute;
+  left: 49.93%;
+  right: 46.73%;
+  top: 52%;
+  bottom: 33.89%;
+}
+
+.eth5 {
+  position: absolute;
+  left: 46.69%;
+  right: 50.02%;
+  top: 45.56%;
+  bottom: 43.98%;
+}
+
+.eth6 {
+  position: absolute;
+  left: 49.98%;
+  right: 46.74%;
+  top: 45.56%;
+  bottom: 43.98%;
+}
+
+.binance2 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: calc(50% - 22px/2 + 35.13px);
+  top: 9px;
+}
+
+.binance {
+  position: absolute;
+  width: 14.67px;
+  height: 14.67px;
+  left: calc(50% - 14.67px/2 + 35.13px);
+  top: 12.67px;
+}
+
+.binance1 {
+  position: absolute;
+  width: 3.37px;
+  height: 3.37px;
+  left: calc(50% - 3.37px/2 + 35.13px);
+  top: 18.32px;
+}
+
+.pp {
+  position: absolute;
+  left: 115px;
+  top: 310px;
+}
+
+.price {
+  position: absolute;
+  width: 241px;
+  height: 31px;
+  left: 130px;
+  top: 160px;
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  color: #5A5F7D;
+  opacity: 0.9;
+}
+
+.ok {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.ee {
+  position: absolute;
+  color: red;
+  background-color: red;
+}
