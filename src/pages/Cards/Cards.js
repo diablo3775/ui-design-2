@@ -2,12 +2,14 @@ import data from '../json/data'
 import './Cards.css'
 
 const Cards = () => {
+
+
   return (
     <>
       {
-        data.map((i) => {
+        data.map((i, id) => {
           return (
-            <div className='pad'>
+            <div className='pad' key={i.id}>
               <div className='card'>
                 <div className='card-half-circle'></div>
                 <div className='btc-txt'><img src={i.bitcointxt} /></div>
@@ -16,10 +18,19 @@ const Cards = () => {
                 <div className='btc-border-two'><img className='dollar-txt-two' src={i.dollar2} /></div>
                 <div className='tvl'><img src={i.tvl} alt='tvl' /></div>
                 <div className='btc-border-three'>
+                  <div>
                   <img className='solana' src={i.solana} alt='solana' />
                   <img className='solana1' src={i.solana1} alt='solana1' />
                   <img className='solana2' src={i.solana2} alt='solana2' />
                   <img className='solana3' src={i.solana3} alt='solana3' />
+                  {
+                    i.id === 2 && 
+                    <div>
+                  <img className='solana' src={i.solana} alt='solana' />
+                  <img className='smallbitcoin' src={i.solana1} alt='solana1' />
+                      </div>
+                  }
+                  </div>
                   <img className='eth' src={i.eth} alt='eth' />
                   <img className='eth1' src={i.eth1} alt='eth1' />
                   <img className='eth6' src={i.eth6} alt='eth2' />

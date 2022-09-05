@@ -23,10 +23,12 @@ import price from '../../assets/Price.png'
 import tvl from '../../assets/tvl.png'
 // 2nd Card
 import bitcoinsmall from '../../assets/card2/Bitcoin SV (BSV) (1).png'
+import bitcoinsmalllogo from '../../assets/card2/Bitcoin SV (BSV) (2).png'
 
 
 let data = [
     {
+        id:1,
         dollargreen:dollargreen,
         bitcoinlogo:bitcoinlogo,
         bitcointxt:bitcointxt,
@@ -51,6 +53,7 @@ let data = [
         pp : pp
     },
     {
+        id:2,
         dollargreen:dollargreen,
         bitcoinlogo:bitcoinlogo,
         bitcointxt:bitcointxt,
@@ -58,7 +61,7 @@ let data = [
         dollar2: dollar2,
         price: price,
         tvl: tvl,
-        solana: solana,
+        solana: bitcoinsmalllogo,
         solana1: bitcoinsmall,
         solana2: bitcoinsmall,
         solana3: bitcoinsmall,
@@ -75,6 +78,7 @@ let data = [
         pp : pp
     },
     {
+        id:3,
         dollargreen:dollargreen,
         bitcoinlogo:bitcoinlogo,
         bitcointxt:bitcointxt,
@@ -99,6 +103,7 @@ let data = [
         pp : pp
     },
     {
+        id:4,
         dollargreen:dollargreen,
         bitcoinlogo:bitcoinlogo,
         bitcointxt:bitcointxt,
@@ -123,6 +128,7 @@ let data = [
         pp : pp
     },
     {
+        id:5,
         dollargreen:dollargreen,
         bitcoinlogo:bitcoinlogo,
         bitcointxt:bitcointxt,

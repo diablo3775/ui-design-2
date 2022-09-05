@@ -190,6 +190,12 @@
   top: 22.49px;
 }
 
+.smallbitcoin {
+  position: absolute;
+  left: 21px;
+  top: 12px;
+}
+
 .eth {
   position: absolute;
   left: 40.97%;
